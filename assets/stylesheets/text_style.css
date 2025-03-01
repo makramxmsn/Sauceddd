@@ -1,0 +1,257 @@
+
+.text-style-text-x-heading-0 {
+	font-size: 40px;
+	font-family: Fahkwang;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-x-heading-1 {
+	font-size: 32px;
+	font-family: Fahkwang;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-x-heading-2 {
+	font-size: 28px;
+	font-family: Fahkwang;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-x-heading-3 {
+	font-size: 22px;
+	font-family: Fahkwang;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-1-b {
+	font-size: 32px;
+	font-family: Manrope;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-1-m {
+	font-size: 32px;
+	font-family: Manrope;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-1-r {
+	font-size: 32px;
+	font-family: Manrope;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-1-l {
+	font-size: 32px;
+	font-family: Manrope;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-2-b {
+	font-size: 24px;
+	font-family: Manrope;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-2-m {
+	font-size: 24px;
+	font-family: Manrope;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-2-r {
+	font-size: 24px;
+	font-family: Manrope;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-2-l {
+	font-size: 24px;
+	font-family: Manrope;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-3-b {
+	font-size: 18px;
+	font-family: Manrope;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-3-m {
+	font-size: 18px;
+	font-family: Manrope;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-3-r {
+	font-size: 18px;
+	font-family: Manrope;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-heading-3-l {
+	font-size: 18px;
+	font-family: Manrope;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-1-b {
+	font-size: 16px;
+	font-family: Manrope;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-1-m {
+	font-size: 16px;
+	font-family: Manrope;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-1-r {
+	font-size: 16px;
+	font-family: Manrope;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-1-l {
+	font-size: 16px;
+	font-family: Manrope;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-2-b {
+	font-size: 14px;
+	font-family: Manrope;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-2-m {
+	font-size: 14px;
+	font-family: Manrope;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-2-r {
+	font-size: 14px;
+	font-family: Manrope;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-2-l {
+	font-size: 14px;
+	font-family: Manrope;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-3-b {
+	font-size: 12px;
+	font-family: Manrope;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-3-m {
+	font-size: 12px;
+	font-family: Manrope;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-3-r {
+	font-size: 12px;
+	font-family: Manrope;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-3-l {
+	font-size: 12px;
+	font-family: Manrope;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-4-b {
+	font-size: 10px;
+	font-family: Manrope;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-4-m {
+	font-size: 10px;
+	font-family: Manrope;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-4-r {
+	font-size: 10px;
+	font-family: Manrope;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-text-body-4-l {
+	font-size: 10px;
+	font-family: Manrope;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}

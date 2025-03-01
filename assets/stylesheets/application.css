@@ -1,0 +1,302 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+
+/* Main Layout */
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    background: #F2F5F9;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 32px;
+    height: 56px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E4EB;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 1rem;
+}
+
+.brand-name {
+    font-weight: bold;
+    color: #1E293B;
+}
+
+.nav-links {
+    display: flex;
+
+    gap: 2rem;
+}
+
+.nav-link {
+    color: #475569;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.icon-link, .avatar {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #475569; /* Default color */
+    text-decoration: none; /* Remove underline */
+    border: 1px solid #CCD0DC;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
+}
+
+/* Hover effect */
+.icon-link:hover, .avatar:hover {
+    background-color: #E2E4EB; /* Light background on hover */
+    color: #1E293B; /* Darker color on hover */
+}
+
+.primary-button-large {
+    background-color: var(--background-primary-color-background-primary);
+    padding: 10px 20px; 
+    color: var(--text-color-text-weakest);
+    border-radius: var(--border-radius-border-radius-200-04);
+    gap: var(--space-space-200-12);
+    text-decoration: none;
+    
+    &:hover {
+        background-color: var(--background-primary-color-background-primary-strong);
+      }
+      
+      &:active {
+        background-color: var(--background-primary-color-background-primary-stronger);
+      }
+  }
+
+.header {
+    gap: 142px; 
+    width: 100%;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.primary-icon {
+    padding: var(--space-space-50-04);
+    border-radius: var(--border-radius-border-radius-200-04);
+    width: var(--size-icon-icon-size-200);
+    height: var(--size-icon-icon-size-200);
+
+    &:hover{
+        background-color: var(--background-color-background-weak);
+    }
+}
+
+.img_helper {
+    width: var(--size-size-400-160-);
+    height: var(--size-size-400-160-);
+}
+
+
+/* Text field desktop */
+
+/* Auto layout */
+.text-field {
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  height: 60px;
+}
+
+/* Header */
+.text-field__header {
+  display: block;
+  gap: 4px;
+  height: 16px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  color: #475569;
+}
+
+/* Text field */
+.text-field__input {
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #9BA4BA;
+  border-radius: 4px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #64748B;
+}
+
+/* Helper */
+.text-field__helper {
+  display: block;
+  height: 14px;
+}
+
+:root {
+  --s1: 1rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stack > * {
+  margin-block: 0;
+}
+
+.stack > * + * {
+  margin-block-start: var(--space, 1.5rem);
+}
+
+
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s1, 1em);
+}
+
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc(( 30rem - 100%) * 999);
+}
+
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space, 1rem);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.switcher > :nth-last-child(n+ 6),
+.switcher > :nth-last-child(n+ 6) ~ * {
+  flex-basis: 100%;
+}
+
+
+/* Button block */
+.button {
+  display: block; 
+  padding: 12px;
+  gap: 12px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.button__label {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+
+/* Modifier for subtle button */
+.button--subtle {
+  background: #F2F5F9;
+  color: #475569;
+}
+
+.button--subtle .button__label {
+  color: #475569;
+}
+
+/* Modifier for primary button */
+.button--primary {
+  background: #4F46E5;
+  color: #F8FAFC;
+}
+
+.button--primary .button__label {
+  color: #F8FAFC;
+}
+
+.gap-1 {
+  gap: 1rem
+}
+
+.p-1 {
+  padding: 1rem
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.center {
+  box-sizing: content-box;
+  margin-inline: auto;
+  max-inline-size: var(--measure);
+}
+
+.text-bold {
+  font-weight: bold
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+  /* Existing styles... */
+
+  /* Remove text decoration from links within candidate cards */
+   a {
+    text-decoration: none !important;
+  }
+
+
+
+  .stage, .source {
+    display: flex;
+    gap: 8px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    color: #475569;
+  }
+
+  .stage-label, .source-label {
+    color: #1e293b;
+  }

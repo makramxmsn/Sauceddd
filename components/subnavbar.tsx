@@ -1,0 +1,63 @@
+import React, { useState } from 'react';
+import styles from '../assets/stylesheets/navbar.module.css';
+import filterOptions from '/Users/makrammakram/Desktop/Saucedd/src/data/options';
+
+const SubNavbar = () => {
+  const [searchTerm, setSearchTerm] = useState<string>(''); // Specify type for state
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(e.target.value);
+  };
+
+  const handleSearchSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log('Search term:', searchTerm); // You can replace this with your search logic
+  };
+
+  return (
+    <div className={styles.candidatesHeader}>
+      <div className={styles.headerTitle}>
+        <h1>All candidates</h1>
+        <button className={styles.addButton}>+ Add candidates</button>
+      </div>
+      <form className={styles.searchForm} onSubmit={handleSearchSubmit}>
+        <input
+          type="text"
+          placeholder="Search all candidates using keywords"
+          value={searchTerm}
+          onChange={handleSearchChange}
+          className={styles.searchInput}
+        />
+        <button type="submit" className={styles.searchButton}>
+          Search
+        </button>
+        <select className={styles.filterDropdown} name="job">
+          <option value="">Job</option>
+          {filterOptions.jobs.map((job, index) => (
+            <option key={index} value={job}>
+              {job}
+            </option>
+          ))}
+        </select>
+        <select className={styles.filterDropdown} name="stage">
+          <option value="">Stage</option>
+          {filterOptions.stages.map((stage, index) => (
+            <option key={index} value={stage}>
+              {stage}
+            </option>
+          ))}
+        </select>
+        <select className={styles.filterDropdown} name="tags">
+          <option value="">Tags</option>
+          {filterOptions.tags.map((tag, index) => (
+            <option key={index} value={tag}>
+              {tag}
+            </option>
+          ))}
+        </select>
+      </form>
+    </div>
+  );
+};
+
+export default SubNavbar;

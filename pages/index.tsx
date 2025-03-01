@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Navbar from '../components/navbar';
+import SubNavbar from '../components/subnavbar';
 
 const greeting: string = "Hello, TSX!";
 
@@ -13,6 +14,7 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
+      <SubNavbar />
       <Head>
         <title>Next.js TSX Example</title>
       </Head>

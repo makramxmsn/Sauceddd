@@ -1,0 +1,139 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 30px;
+}
+
+.navbarLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navbarLinks a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbarLinks a.active {
+  color: #007bff; /* Or match your design's active link color */
+  border-bottom: 2px solid #007bff;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.addButton {
+  background: none;
+  border: 1px solid #f30041;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profileImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.userProfile span {
+  font-size: 14px;
+  color: #666;
+}
+
+
+.candidatesHeader {
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.headerTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.headerTitle h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.addButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.searchForm {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.searchInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  flex-grow: 1;
+  max-width: 300px;
+}
+
+.searchButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+.filterDropdown {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
