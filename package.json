@@ -9,14 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13.4.12",
+    "next": "^15.2.0",
+    "pg": "^8.13.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.4.5",
+    "@types/pg": "^8.11.11",
     "@types/react": "^18.2.18",
     "@types/react-dom": "^18.2.7",
-    "typescript": "^5.1.6"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   }
 }
